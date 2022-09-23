@@ -7,6 +7,9 @@
       "import": "./out/*.js"
     }
   },
+  "scripts": {
+    "prepare": "tsc --outDir out --declaration src/index.ts"
+  },
   "devDependencies": {
     "typescript": "^4.8.0"
   }

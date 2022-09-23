@@ -1,6 +1,10 @@
 {
   "name": "importer",
   "version": "1.0.0",
+  "scripts": {
+    "build:static": "esbuild --platform=node --target=node16 --format=esm --outdir=out --bundle index.mts",
+    "build:pattern": "esbuild --platform=node --target=node16 --format=esm --outdir=out --bundle index-pattern.mts"
+  },
   "dependencies": {
     "exporter": "^1.0.0",
     "exporter-pattern": "^1.0.0"
