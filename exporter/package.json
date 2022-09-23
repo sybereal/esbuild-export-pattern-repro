@@ -1,0 +1,13 @@
+{
+  "name": "exporter",
+  "version": "1.0.0",
+  "exports": {
+    "./index.js": {
+      "types": "./out/index.d.ts",
+      "import": "./out/index.js"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^4.8.0"
+  }
+}

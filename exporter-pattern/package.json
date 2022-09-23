@@ -1,0 +1,13 @@
+{
+  "name": "exporter-pattern",
+  "version": "1.0.0",
+  "exports": {
+    "./*.js": {
+      "types": "./out/*.d.ts",
+      "import": "./out/*.js"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^4.8.0"
+  }
+}
